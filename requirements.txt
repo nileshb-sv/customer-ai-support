@@ -1,21 +1,10 @@
-# AI Customer Support — Streamlit Cloud compatible
-# All versions pinned to avoid conflicts
-
-# Groq LLM API
+# Streamlit Cloud compatible — no pinned torch version
 groq>=0.9.0
-
-# Core ML (CPU-only for Streamlit Cloud free tier)
-torch==2.2.2
-transformers==4.40.0
-datasets==2.19.0
-sentencepiece==0.2.0
-
-# Data
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.19.0
+sentencepiece>=0.2.0
 pandas>=2.0.0
 numpy>=1.24.0
-
-# UI
 streamlit>=1.32.0
-
-# Utils
 joblib>=1.3.0
