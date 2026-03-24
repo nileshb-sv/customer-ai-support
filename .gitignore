@@ -1,8 +1,4 @@
-# ── NEVER push these ──────────────────────────────────────────
-# Streamlit secrets (local)
-.streamlit/secrets.toml
-
-# Trained model weights (too large for GitHub, ~250MB)
+# Trained model weights 
 models/
 
 # Python cache
