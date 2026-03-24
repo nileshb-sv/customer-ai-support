@@ -84,7 +84,7 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
 .hero-live {
     display:inline-flex; align-items:center; gap:7px;
     background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3);
-    color:#34D399; font-size:0.7rem; font-weight:700;
+    color:#34D399 !important; font-size:0.7rem; font-weight:700;
     letter-spacing:0.1em; text-transform:uppercase;
     padding:5px 14px; border-radius:30px; margin-bottom:18px;
 }
@@ -94,19 +94,19 @@ html, body, [class*="css"] { font-family: 'Plus Jakarta Sans', sans-serif; }
 }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
 .hero-h1 {
-    font-size:2.4rem; font-weight:700; color:#F1F5F9;
+    font-size:2.4rem; font-weight:700; color:#F1F5F9 !important;
     margin:0 0 12px; line-height:1.1;
     letter-spacing:-0.02em;
 }
-.hero-h1 em { color:#818CF8; font-style:normal; }
-.hero-desc { color:#64748B; font-size:0.95rem; font-weight:400; margin:0 0 30px; line-height:1.6; }
+.hero-h1 em { color:#818CF8 !important; font-style:normal; }
+.hero-desc { color:#94A3B8 !important; font-size:0.95rem; font-weight:400; margin:0 0 30px; line-height:1.6; }
 .hero-pills { display:flex; gap:8px; flex-wrap:wrap; }
 .hero-pill {
-    background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1);
-    color:#94A3B8; font-size:0.75rem; font-weight:500;
+    background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15);
+    color:#CBD5E1 !important; font-size:0.75rem; font-weight:500;
     padding:5px 13px; border-radius:20px;
 }
-.hero-pill span { color:#C7D2FE; font-weight:600; }
+.hero-pill span { color:#C7D2FE !important; font-weight:600; }
 
 /* ═══ TABS ════════════════════════════════════════════════ */
 .stTabs [data-baseweb="tab-list"] {
@@ -398,7 +398,7 @@ def parse_and_render(category: str, resp: str, is_groq: bool):
   </div>
   <div class="rc-foot">
     <span class="foot-item">⏱ Resolution within <strong>24 hours</strong></span>
-    <span class="foot-item">📞 <strong>1800-0989-0989</strong></span>
+    <span class="foot-item">📞 <strong>1800-XXX-XXXX</strong></span>
   </div>
 </div></div>
 """, unsafe_allow_html=True)
